@@ -1,0 +1,64 @@
+header {
+
+    border-radius: 10px; 
+    background-color: #f8f9fa;
+    padding: 1px 5px;
+    border-bottom: 2px solid #88608a;
+    backdrop-filter:blur(10px) ;
+    margin-bottom: 20px;   /*10 */
+}
+.container {
+    max-width: none; /* Remove the max-width constraint */
+}
+
+.navbar-nav .nav-link:hover {
+    color: purple !important;
+}
+
+main{
+    padding-top: 20px; /*10*/
+}
+
+.card {
+    border: 2px solid #641560;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.card-text strong {
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+
+
+footer {
+
+    display: flex;
+    background-color: #f8f9fa;
+     /* align-items: center; */ 
+    padding: 10px 0;
+    justify-content: space-between;
+     /* text-align: center;*/ 
+    border-radius: 10px; 
+    
+    color: black;
+  }
